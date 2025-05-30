@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
 * {
-
+    width: 100%;
     font-family: 'Inter', sans-serif;
     /*background-color:#D2D5DA;*/
     box-sizing: border-box;
@@ -39,7 +44,7 @@ p{
     align-items: center;
     margin-top: 3.75rem;
     padding: 1.25rem;
-    max-width: 1200px;
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
