@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.main{
+    background-color: #E5EAF0;
+    padding:6rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100%;
+    background-color:white;
+}
+.card{
+    width:550px;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.15);
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+
+}
+.hero{
+    height: 300px;
+    width: calc(100% + 80px);
+    margin: -40px -40px 0;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+.heading{
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+p{
+    color: #4A5567;
+
+}
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #4A5567;
+    opacity: 0.1;
+}
+.author{
+    display: flex;
+    justify-content: flex-start;
+    gap:15px;
+}
+.author img{
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    width: 55px;
+    height:55px;
+    object-fit: cover;
+}
+.author p{
+    font-size: 20px;
+    font-weight:500;
+}
+.name{
+    margin-top: 3px;
+}
