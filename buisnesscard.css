@@ -6,10 +6,6 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-.main{
-    background-color: #E5EAF0;
-    padding:6rem;
-}
 .container{
     display: flex;
     justify-content: center;
