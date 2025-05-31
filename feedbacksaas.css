@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: #121826;
+    background-image: url('asset/Background_image@2x.png');
+    color:#E5E7EB;
+}
+.container{
+    width: 100%;
+    height:auto;
+    padding:50px 2px;
+}
+.header{
+    text-align: center;
+    width: 100%;
+    line-height: 1.2;
+
+
+}
+.header h1{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+.header p{
+    color: #9DA3AE;
+}
+.card{
+    width:400px;
+    height:auto;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.02), 0 6px 6px rgba(0, 0, 0, 0.15);
+    padding:30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+    background-color: #212936;
+
+}
+.topimg{
+    border-radius: 50%;
+    width:55px;
+    padding: 10px;
+    background-color:#FCEED8;
+    height:55px;
+    object-fit: cover;
+}
+.card h2{
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+.card p{
+    color: #9DA3AE;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.bottomimg{
+    width:100%;
+    height:auto;
+    border-radius: 10px;
+}
+.cardlayout{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+    margin:70px 50px;
+}
